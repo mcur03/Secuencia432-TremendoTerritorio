@@ -22,7 +22,7 @@ Este proyecto proporciona la API REST que alimenta la plataforma Tremendo Territ
 ### Pasos de instalación
 
 #### 1. Clonar el repositorio:
-git clone https://github.com/tu-organizacion/tremendo-territorio-backend.git <br>
+git clone https://github.com/mcur03/Secuencia432-TremendoTerritorio.git <br>
 cd tremendo-territorio-backend
 
 #### 2. Instalar dependencias:
