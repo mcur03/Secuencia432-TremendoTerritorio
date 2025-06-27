@@ -5,50 +5,49 @@ API backend para la plataforma Tremendo Territorio, desarrollada con Node.js, Ex
 Este proyecto proporciona la API REST que alimenta la plataforma Tremendo Territorio. Maneja la autenticación de usuarios, gestión de datos y todas las operaciones del backend necesarias para el funcionamiento de la aplicación.
 
 ## Características principales:
-API REST desarrollada con Express.js y TypeScript
-Autenticación JWT con bcrypt para encriptación de contraseñas
-Conexión a base de datos MySQL
-CORS configurado para peticiones cross-origin
-Arquitectura escalable y mantenible
+- API REST desarrollada con Express.js y TypeScript<br>
+- Autenticación JWT con bcrypt para encriptación de contraseñas<br>
+- Conexión a base de datos MySQL<br>
+- CORS configurado para peticiones cross-origin<br>
+- Arquitectura escalable y mantenible
 
 ## Instalación y Configuración
 ###Prerrequisitos
 
-Node.js (versión 18 o superior)
-npm o yarn
-MySQL (versión 8.0 o superior)
-Git
+- Node.js (versión 22 o superior)<br>
+- npm o yarn <br>
+- MySQL (versión 8.0 o superior) <br>
+- Git
 
 ### Pasos de instalación
 
-#### Clonar el repositorio:
-bashgit clone https://github.com/tu-organizacion/tremendo-territorio-backend.git
+#### 1. Clonar el repositorio:
+git clone https://github.com/tu-organizacion/tremendo-territorio-backend.git <br>
 cd tremendo-territorio-backend
 
-#### Instalar dependencias:
-bashnpm install
+#### 2. Instalar dependencias:
+npm install
 
-#### Configurar variables de entorno:
-Crear un archivo .env en la raíz del proyecto:
-env# Base de datos
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=tu_usuario
-DB_PASSWORD=tu_contraseña
-DB_NAME=tremendo_territorio
+#### 3. Configurar variables de entorno:
+Crear un archivo .env en la raíz del proyecto: <br>
+##### Base de datos <br>
+DB_HOST=localhost <br>
+DB_PORT=3306 <br>
+DB_USER=tu_usuario <br>
+DB_PASSWORD=tu_contraseña <br>
+DB_NAME=tremendo_territorio <br>
 
-# JWT
-JWT_SECRET=tu_clave_secreta_muy_segura
+##### JWT
+JWT_SECRET=tu_clave_secreta_muy_segura <br>
 JWT_EXPIRES_IN=24h
 
-# Servidor
+##### Servidor
 PORT=3000
-NODE_ENV=development
 
 #### Configurar la base de datos:
-bash# Crear la base de datos en MySQL
-mysql -u root -p
-CREATE DATABASE tremendo_territorio;
+##### Crear la base de datos en MySQL <br>
+mysql -u root -p <br>
+CREATE DATABASE tremendoTerritorio;
 
 #### Compilar el proyecto:
-bashnpm run build
+npm run build
