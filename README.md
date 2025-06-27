@@ -35,7 +35,7 @@ DB_HOST=localhost <br>
 DB_PORT=3306 <br>
 DB_USER=tu_usuario <br>
 DB_PASSWORD=tu_contraseña <br>
-DB_NAME=tremendo_territorio <br>
+DB_DATABASE=tremendo_territorio <br>
 
 ##### JWT
 JWT_SECRET=tu_clave_secreta_muy_segura <br>
