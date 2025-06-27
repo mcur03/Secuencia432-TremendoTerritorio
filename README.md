@@ -44,10 +44,10 @@ JWT_EXPIRES_IN=24h
 ##### Servidor
 PORT=3000
 
-#### Configurar la base de datos:
+#### 4. Configurar la base de datos:
 ##### Crear la base de datos en MySQL <br>
 mysql -u root -p <br>
 CREATE DATABASE tremendoTerritorio;
 
-#### Compilar el proyecto:
+#### 5. Compilar el proyecto:
 npm run build
